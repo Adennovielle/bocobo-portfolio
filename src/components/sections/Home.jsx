@@ -13,9 +13,11 @@ export const Home = () => {
           </h1>
 
           <p className="tex-gray-400 text-lg mb-8 max-w-lg mx-auto">
-            I’m a full-stack developer who loves crafting clean, scalable web
-            applications. My goal is to build solutions that offer both
-            exceptional performance and a delightful user experience.
+            I’m an aspiring full-stack developer with hands-on experience in
+            React.js, Node.js, Express.js, MySQL, and Sequelize. I enjoy
+            building practical web applications, developing RESTful APIs, and
+            creating user-friendly interfaces while continuously growing my
+            skills in software development.
           </p>
           <div className="flex justify-center space-x-4">
             <a

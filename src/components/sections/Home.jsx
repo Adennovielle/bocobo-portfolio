@@ -12,7 +12,7 @@ export const Home = () => {
             Hi, I'm Adolf Vincent
           </h1>
 
-          <p className="tex-gray-400 text-lg mb-8 max-w-lg mx-auto">
+          <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
             I’m an aspiring full-stack developer with hands-on experience in
             React.js, Node.js, Express.js, MySQL, and Sequelize. I enjoy
             building practical web applications, developing RESTful APIs, and

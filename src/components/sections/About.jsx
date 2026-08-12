@@ -1,15 +1,15 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 
 export const About = () => {
-  const frontendSkills = [
-    "React",
-    "Vue",
-    "TypeScript",
-    "TailwindCSS",
-    "Svelte",
-  ];
+  const frontendSkills = ["HTML", "CSS", "JavaScript", "React.js"];
 
-  const backendSkills = ["Node.js", "Python", "AWS", "MongoDB", "GraphQL"];
+  const backendSkills = [
+    "Node.js",
+    "Express.js",
+    "MySQL",
+    "MongoDB",
+    "Sequelize",
+  ];
 
   return (
     <section
@@ -19,26 +19,31 @@ export const About = () => {
       <RevealOnScroll>
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
-            {" "}
             About Me
           </h2>
 
-          <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
-            <p className="text-gray-300 mb-6">
-              Passionate developer with expertise in building scalable web
-              applications and creating innovative solutions.
+          {/* Introduction */}
+          <div className="rounded-xl p-8 border border-white/10 hover:-translate-y-1 transition-all">
+            <p className="text-gray-300 mb-6 leading-relaxed">
+              I’m an entry-level full-stack developer with a background in
+              Information Technology and hands-on experience developing web
+              applications using React.js, Node.js, Express.js, and MySQL.
+              During my internship at the Securities and Exchange Commission, I
+              worked on a web-based registry system and contributed to
+              developing features, RESTful APIs, CRUD operations, form
+              validation, file uploads, and dynamic data tables.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {/* Frontend */}
               <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                <h3 className="text-xl font-bold mb-4"> Frontend</h3>
+                <h3 className="text-xl font-bold mb-4">Frontend</h3>
+
                 <div className="flex flex-wrap gap-2">
-                  {frontendSkills.map((tech, key) => (
+                  {frontendSkills.map((tech) => (
                     <span
-                      key={key}
-                      className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
-                                    hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition
-                    "
+                      key={tech}
+                      className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition"
                     >
                       {tech}
                     </span>
@@ -46,15 +51,15 @@ export const About = () => {
                 </div>
               </div>
 
+              {/* Backend */}
               <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                <h3 className="text-xl font-bold mb-4"> Backend</h3>
+                <h3 className="text-xl font-bold mb-4">Backend & Database</h3>
+
                 <div className="flex flex-wrap gap-2">
-                  {backendSkills.map((tech, key) => (
+                  {backendSkills.map((tech) => (
                     <span
-                      key={key}
-                      className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
-                                    hover:shadow-[0_2px_8px_rgba(59,130,2246,0.2)] transition
-                    "
+                      key={tech}
+                      className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition"
                     >
                       {tech}
                     </span>
@@ -64,44 +69,79 @@ export const About = () => {
             </div>
           </div>
 
+          {/* Education & Experience */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-            <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
-              <ul className="list-disc list-inside text-gray-300 space-y-2">
-                <li>
-                  <strong> B.S. in Computer Science </strong> - XYZ University
-                  (2016-2020)
-                </li>
-                <li>
-                  Relevant Coursework: Data Structures, Web Development, Cloud
-                  Computing...
-                </li>
-              </ul>
+            {/* Education */}
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 transition-all">
+              <h3 className="text-xl font-bold mb-4">🏫 Education</h3>
+
+              <div className="text-gray-300 space-y-3">
+                <div>
+                  <h4 className="font-semibold text-white">
+                    Bachelor of Science in Information Technology
+                  </h4>
+
+                  <p>Mary The Queen College of Quezon City</p>
+
+                  <p>2022 – 2026</p>
+                </div>
+              </div>
             </div>
-            <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4"> 💼 Work Experience </h3>
+
+            {/* Experience */}
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 transition-all">
+              <h3 className="text-xl font-bold mb-4">💼 Experience</h3>
+
               <div className="space-y-4 text-gray-300">
                 <div>
-                  <h4 className="font-semibold">
-                    {" "}
-                    Software Engineer at ABC Corp (2020 - Present){" "}
+                  <h4 className="font-semibold text-white">
+                    Information Technology Intern
                   </h4>
-                  <p>
-                    Developed and maintained microservices for cloud-based
-                    applications.
-                  </p>
-                </div>
 
-                <div>
-                  <h4 className="font-semibold">
-                    {" "}
-                    Intern at DEF Startups (2019){" "}
-                  </h4>
-                  <p>
-                    Assisted in building front-end components and integration
-                    REST APIs
+                  <p>Securities and Exchange Commission (SEC)</p>
+
+                  <p className="text-sm mb-2">March 2026 – July 2026</p>
+
+                  <p className="leading-relaxed">
+                    Developed features for the Qualified Buyer Inter-Registrar
+                    Registry System using React.js, Node.js, Express.js, MySQL,
+                    and Sequelize. Implemented RESTful APIs, CRUD operations,
+                    form validation, file uploads, and dynamic data tables.
                   </p>
                 </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Previous Experience */}
+          <div className="mt-6 p-6 rounded-xl border border-white/10 hover:-translate-y-1 transition-all">
+            <h3 className="text-xl font-bold mb-4">Previous Work Experience</h3>
+
+            <div className="space-y-4 text-gray-300">
+              <div>
+                <h4 className="font-semibold text-white">
+                  Sales Assistant — Electrical Devices
+                </h4>
+
+                <p>DIY Hardware | 2018 – 2022</p>
+
+                <p className="mt-1">
+                  Assisted customers with product information, maintained
+                  inventory, and organized product displays.
+                </p>
+              </div>
+
+              <div>
+                <h4 className="font-semibold text-white">
+                  Sales Assistant — Home Decor
+                </h4>
+
+                <p>Ace Hardware | 2017 – 2018</p>
+
+                <p className="mt-1">
+                  Managed product displays, monitored inventory, and assisted
+                  customers with their inquiries.
+                </p>
               </div>
             </div>
           </div>

@@ -71,7 +71,7 @@ export const Home = () => {
                   relative
                   w-56 h-56
                   md:w-72 md:h-72
-                  lg:w-110 lg:h-110
+                  lg:w-115 lg:h-115
                   rounded-full
                   p-1
                   bg-gradient-to-r from-blue-500 to-cyan-400

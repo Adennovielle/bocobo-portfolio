@@ -26,31 +26,70 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
           <div className="hidden md:flex items-center space-x-8">
             <a
               href="#home"
-              className="text-gray-300 hove:text-white transition-colors"
+              className="
+      relative text-gray-300
+      transition-colors duration-300
+      hover:text-white
+      after:absolute after:left-1/2 after:-bottom-1
+      after:h-[2px] after:w-0
+      after:-translate-x-1/2
+      after:bg-gradient-to-r after:from-blue-500 after:to-cyan-400
+      after:transition-all after:duration-300
+      hover:after:w-full
+    "
             >
-              {" "}
               Home
             </a>
+
             <a
               href="#about"
-              className="text-gray-300 hove:text-white transition-colors"
+              className="
+      relative text-gray-300
+      transition-colors duration-300
+      hover:text-white
+      after:absolute after:left-1/2 after:-bottom-1
+      after:h-[2px] after:w-0
+      after:-translate-x-1/2
+      after:bg-gradient-to-r after:from-blue-500 after:to-cyan-400
+      after:transition-all after:duration-300
+      hover:after:w-full
+    "
             >
-              {" "}
-              About{" "}
+              About
             </a>
+
             <a
               href="#projects"
-              className="text-gray-300 hove:text-white transition-colors"
+              className="
+      relative text-gray-300
+      transition-colors duration-300
+      hover:text-white
+      after:absolute after:left-1/2 after:-bottom-1
+      after:h-[2px] after:w-0
+      after:-translate-x-1/2
+      after:bg-gradient-to-r after:from-blue-500 after:to-cyan-400
+      after:transition-all after:duration-300
+      hover:after:w-full
+    "
             >
-              {" "}
-              Projects{" "}
+              Projects
             </a>
+
             <a
               href="#contact"
-              className="text-gray-300 hove:text-white transition-colors"
+              className="
+      relative text-gray-300
+      transition-colors duration-300
+      hover:text-white
+      after:absolute after:left-1/2 after:-bottom-1
+      after:h-[2px] after:w-0
+      after:-translate-x-1/2
+      after:bg-gradient-to-r after:from-blue-500 after:to-cyan-400
+      after:transition-all after:duration-300
+      hover:after:w-full
+    "
             >
-              {" "}
-              Contact{" "}
+              Contact
             </a>
           </div>
         </div>

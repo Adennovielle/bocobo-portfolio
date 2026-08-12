@@ -115,7 +115,7 @@ Error generating stack: `+i.message+`
                   relative\r
                   w-56 h-56\r
                   md:w-72 md:h-72\r
-                  lg:w-110 lg:h-110\r
+                  lg:w-115 lg:h-115\r
                   rounded-full\r
                   p-1\r
                   bg-gradient-to-r from-blue-500 to-cyan-400\r

@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-
+import MyLogo from "../assets/my-logo.png";
 export const Navbar = ({ menuOpen, setMenuOpen }) => {
   useEffect(() => {
     document.body.style.overflow = menuOpen ? "hidden" : "";
@@ -8,8 +8,11 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
     <nav className="fixed top-0 w-full z-40 bg-[rgba(10, 10, 10, 0.8)] backdrop-blur-lg border-b border-white/10 shadow-lg">
       <div className="max-w-5xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
-          <a href="#home" className="font-mono text-xl font-bold text-white">
-            {" "}
+          <a
+            href="#home"
+            className="font-mono text-xl font-bold text-white flex items-center "
+          >
+            <img src={MyLogo} alt="Logo" width="32" height="32" />
             adolf<span className="text-blue-500">.vincent</span>{" "}
           </a>
 

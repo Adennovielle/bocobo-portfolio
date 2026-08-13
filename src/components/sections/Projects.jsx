@@ -52,18 +52,6 @@ export const Projects = () => {
         <div className="max-w-6xl mx-auto px-4 w-full">
           {/* ================= HEADER ================= */}
           <div className="text-center mb-12">
-            <span
-              className="
-                text-cyan-400/70
-                text-sm
-                font-mono
-                tracking-[0.3em]
-                uppercase
-              "
-            >
-              My Work
-            </span>
-
             <h2
               className="
                 text-3xl

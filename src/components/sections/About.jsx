@@ -19,19 +19,6 @@ export const About = () => {
       <RevealOnScroll>
         <div className="max-w-3xl mx-auto px-4">
           <div className="text-center mb-14">
-            <span
-              className="
-      block
-      text-cyan-400/70
-      text-sm
-      font-mono
-      tracking-[0.3em]
-      uppercase
-    "
-            >
-              About Me
-            </span>
-
             <h2
               className="
       text-4xl
@@ -46,7 +33,7 @@ export const About = () => {
       text-transparent
     "
             >
-              Who I Am
+              About Me
             </h2>
 
             <p

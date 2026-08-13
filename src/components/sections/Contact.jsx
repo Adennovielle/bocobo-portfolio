@@ -75,18 +75,6 @@ export const Contact = () => {
         <div className="max-w-6xl mx-auto px-4 w-full relative z-10">
           {/* ================= HEADER ================= */}
           <div className="text-center mb-14">
-            <span
-              className="
-                text-cyan-400/70
-                text-sm
-                font-mono
-                tracking-[0.3em]
-                uppercase
-              "
-            >
-              Contact
-            </span>
-
             <h2
               className="
                 text-4xl
@@ -100,7 +88,7 @@ export const Contact = () => {
                 text-transparent
               "
             >
-              Let's Work Together
+              Contact
             </h2>
 
             <p className="text-gray-500 mt-4 max-w-xl mx-auto leading-relaxed">

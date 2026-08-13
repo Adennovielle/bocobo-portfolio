@@ -49,7 +49,7 @@ export const Home = () => {
             className="
               min-h-[calc(100vh-64px)]
               flex
-              flex-col-reverse
+              flex-col
               md:flex-row
               items-center
               justify-between

@@ -18,9 +18,50 @@ export const About = () => {
     >
       <RevealOnScroll>
         <div className="max-w-3xl mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
-            About Me
-          </h2>
+          <div className="text-center mb-14">
+            <span
+              className="
+      block
+      text-cyan-400/70
+      text-sm
+      font-mono
+      tracking-[0.3em]
+      uppercase
+    "
+            >
+              About Me
+            </span>
+
+            <h2
+              className="
+      text-4xl
+      md:text-5xl
+      font-bold
+      mt-2
+      leading-tight
+      bg-gradient-to-r
+      from-blue-500
+      to-cyan-400
+      bg-clip-text
+      text-transparent
+    "
+            >
+              Who I Am
+            </h2>
+
+            <p
+              className="
+      text-gray-500
+      mt-4
+      max-w-2xl
+      mx-auto
+      leading-relaxed
+    "
+            >
+              A passionate IT graduate focused on building practical,
+              user-friendly, and scalable web applications.
+            </p>
+          </div>
 
           {/* Introduction */}
           <div className="rounded-xl p-8 border border-white/10 hover:-translate-y-1 transition-all">

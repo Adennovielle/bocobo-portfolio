@@ -163,7 +163,7 @@ Error generating stack: `+i.message+`
           `})]}),d.jsx(Dl,{children:d.jsx("div",{className:"max-w-6xl mx-auto px-6 w-full",children:d.jsxs("div",{className:`\r
               min-h-[calc(100vh-64px)]\r
               flex\r
-              flex-col\r
+              flex-col-reverse\r
               md:flex-row\r
               items-center\r
               justify-between\r
